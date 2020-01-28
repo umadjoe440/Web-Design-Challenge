@@ -1,0 +1,66 @@
+Web Visualizations Site:
+
+"Latitude"
+
+Landing Page - index.html
+Comparisons Page - comparison.html
+Data Page - data.html
+
+--Visualization Pages
+
+Max Temperature - temp.html
+Humidity - humidity.html
+Cloudiness - cloudiness.html
+Wind Speed - windspeed.html
+
+
+Guesses on Navbar:
+
+- unordered list in the navbar
+- justify-content-right
+- figure out how to add the dropdown element into the navbar list
+- figure out the background color and font
+
+Landing page:  2 boxes side by side(responsive when viewport shrinks
+
+https://www.bitdegree.org/learn/bootstrap-colors#background-color
+
+
+
+Arranging items on the nav bar:
+
+https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items
+
+<!-- 
+example 3 - Navbar with brand left, links on center and right that collapse into the vert mobile menu
+-->
+<nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+    <a href="/" class="navbar-brand d-flex w-50 mr-auto">Navbar 3</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+        <ul class="navbar-nav w-100 justify-content-center">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="//codeply.com">Codeply</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Right</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Right</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Right</a>
+            </li>
+        </ul>
+    </div>
+</nav>
