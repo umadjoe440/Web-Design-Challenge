@@ -25,6 +25,8 @@ Landing page:  2 boxes side by side(responsive when viewport shrinks
 
 https://www.bitdegree.org/learn/bootstrap-colors#background-color
 
+d-flex
+https://getbootstrap.com/docs/4.0/utilities/flex/
 
 
 Arranging items on the nav bar:
