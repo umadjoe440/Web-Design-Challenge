@@ -1,0 +1,34 @@
+@media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            font-size: 100px;
+            color: #fff;
+            background: rgb(2, 155, 155);
+            width: 100%;
+            left: 0;
+            text-align: center;
+        }
+    }
+
+
+.box {
+    min-height: 50px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 800;
+    color: #fff;
+  }
+  
+  .teal {
+    background: rgb(2, 155, 155);
+  }
+  
+  .purple {
+    background: rebeccapurple;
+  }
+  
+  .red {
+    background: indianred;
+  }
+  

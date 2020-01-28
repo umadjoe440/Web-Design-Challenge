@@ -16,35 +16,49 @@
 
     <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
  <!--       <a href="/" class="navbar-brand d-flex w-50 mr-auto">Latitude</a> -->
-        <a href="/" class="text-white bg-info d-flex w-50 mr-auto">Latitude</a>
+        <a href="/" class="bg-info text-white">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-            <ul class="navbar-nav w-100 justify-content-center">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="//codeply.com">Codeply</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-            </ul>
             <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Right</a>
+                <li class="dropdown nav-item">
+                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" id="navbardropdown">
+                        Click Here
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Dropdown option 1</a>
+                        <a href="#" class="dropdown-item">Dropdown option 2</a>
+                        <a href="#" class="dropdown-item">Dropdown option 3</a>
+                    </div>    
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Right</a>
+                    <a class="nav-link" href="#">Comparison</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Right</a>
+                    <a class="nav-link" href="#">Data</a>
                 </li>
             </ul>
         </div>
     </nav>
+
+    <div class="container">
+        <!--Normally these medium columns go full wide on small screen sizes-->
+        <div class="row">
+          <div class="col-md-3">
+            <div class="box teal">col-md-3</div>
+          </div>
+          <div class="col-md-3">
+            <div class="box teal">col-md-3</div>
+          </div>
+          <div class="col-md-3">
+            <div class="box teal">col-md-3</div>
+          </div>
+          <div class="col-md-3">
+            <div class="box teal">col-md-3</div>
+          </div>
+        </div>
+    
     
 
 </body>
