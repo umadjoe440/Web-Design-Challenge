@@ -13,9 +13,11 @@
 
 
 
-    .body {
-        background: lightgray;
-    }    
+.body {
+    background: lightgray;
+}    
+
+
 
 .box {
     min-height: 50px;
