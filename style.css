@@ -1,0 +1,53 @@
+@media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            font-size: 100px;
+            color: #fff;
+            background: rgb(2, 155, 155);
+            width: 100%;
+            left: 0;
+            text-align: center;
+        }
+    }
+
+
+
+.body {
+    background: lightgray;
+}    
+
+
+
+.box {
+    min-height: 50px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 800;
+    color: #fff;
+  }
+  
+  .teal {
+    background: rgb(2, 155, 155);
+  }
+
+  .bg-teal {
+    background: rgb(2, 155, 155);
+  }
+  
+  .teal-title {
+    color: rgb(2, 155, 155);
+    font-weight: bold;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
