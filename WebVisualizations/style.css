@@ -28,8 +28,24 @@
   .teal {
     background: rgb(2, 155, 155);
   }
+
+  .bg-teal {
+    background: rgb(2, 155, 155);
+  }
   
   .teal-title {
     color: rgb(2, 155, 155);
     font-weight: bold;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-center {
+    text-align: center;
   }
